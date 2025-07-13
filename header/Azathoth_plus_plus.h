@@ -1,12 +1,12 @@
-#ifndef RLYEH
-#define RLYEH
+#ifndef Р'ЛЬЕХ
+#define Р'ЛЬЕХ
 
 #ifdef _WIN32
 #include <Windows.h>
-#define AWAKEN_THE_ANCIENTS SetConsoleOutputCP(1251)
+#define ПРОБУДИТЬ_ДРЕВНИХ SetConsoleOutputCP(1251)
 #else
 #include <unistd.h>
-#define AWAKEN_THE_ANCIENTS
+#define ПРОБУДИТЬ_ДРЕВНИХ
 #endif
 
 #include <fstream>
@@ -17,129 +17,129 @@
 #include <vector>
 #include <algorithm>
 
-#define GREAT_OLD_ONE int main
-#define INVOKE using
-#define NAME typedef
-#define ABYSS std
-#define UTTER cout
-#define HEARKEN cin
-#define SACRIFICE return
+#define ВЕЛИКИЙ_ДРЕВНИЙ int main
+#define ПРИЗВАТЬ using
+#define НАРЕЧЬ typedef
+#define БЕЗДНА std
+#define ИЗРЕЧЬ cout
+#define ВНИМАТЬ cin
+#define ВОЗДАТЬ_ЖЕРТВУ return
 
-#define PERFORM_RITUAL do
-#define WHILE_MADNESS_DURETH while
-#define FOR_EACH_SACRIFICE for
+#define СОВЕРШАТЬ_РИТУАЛ do
+#define ПОКА_НЕ_СОЙДЕШЬ_С_УМА while
+#define ДЛЯ_КАЖДОГО_ЖЕРТВОПРИНОШЕНИЯ for
 
-#define IF_STARS_ALIGN if
-#define ELSE_CURSE else
+#define ЕСЛИ_ЗВЕЗДЫ_СОШЛИСЬ if
+#define ИНАЧЕ_ПРОКЛЯТИЕ else
 
-#define CULT class
-#define TABLET struct
-#define PROPHECY enum
+#define КУЛЬТ class
+#define СКРИЖАЛЬ struct
+#define ПРОРОЧЕСТВО enum
 
-#define BREAK_SEALS break
-#define CONTINUE_MADNESS continue
-#define GATE switch
-#define DIMENSION case
-#define ABYSS default
+#define РАЗОРВАТЬ_ПЕЧАТИ break
+#define ПРОДОЛЖИТЬ_БЕЗУМИЕ continue
+#define ВРАТА switch
+#define ИЗМЕРЕНИЕ case
+#define БЕЗДНА default
 
-#define TRUTH_OF_NYARLATHOTEP true
-#define LIE_OF_CTHULHU false
+#define ИСТИНА_НЬЯРЛАТХОТЕПА true
+#define ЛОЖЬ_КТУЛХУ false
 
-#define MADNESS endl
-#define NEW_HORROR new
-#define ANNIHILATION delete
-#define UNFATHOMABLE nullptr
-#define NOTHING NULL
-#define WILL_OF_CHAOS rand
-#define SEED_OF_CHAOS srand
-#define FLESH_TABLET to_string
-#define WIDTH_OF_MADNESS setw
-#define INCANTATION const
-#define POWER_OF_YOG_SOTHOTH pow
-#define INVOKE_THE_ANCIENT throw
-#define MADNESS_FROM_OUTER_SPHERES exception
-#define READ_NECRONOMICON ifstream
-#define WRITE_NECRONOMICON ofstream
-#define GRIMOIRE fstream
-#define CULT_MINION friend
-#define LEAP_BETWEEN_DIMENSIONS goto
-#define SPELL_FORMULA template
-#define NAME_OF_THE_ANCIENT typename
-#define FORBIDDEN_KNOWLEDGE private
-#define KNOWLEDGE_FOR_INITIATES public
-#define SECRET_KNOWLEDGE protected
-#define INSCRIBED_IN_FLESH inline
-#define ETERNAL static
-#define THIS_NIGHTMARE this
-#define ATTEMPT_TO_COMPREHEND try
-#define CAUGHT_MADNESS catch
-#define DIMENSION_OF_CHAOS namespace
-#define OPEN_THE_GATE open
-#define CLOSE_THE_GATE close
-#define ENTITY_FROM_BEYOND auto
-#define MATTER_TRANSFORMATION static_cast
-#define GAZE_FROM_BEYOND peek
-#define TWINS pair
-#define ELDER_TWIN first
-#define YOUNGER_TWIN second
-#define RITUAL operator
-#define REALITY_SHIFT move
+#define БЕЗУМИЕ endl
+#define НОВЫЙ_УЖАС new
+#define УНИЧТОЖЕНИЕ delete
+#define НЕПОСТИЖИМОЕ nullptr
+#define НИЧТО NULL
+#define ВОЛЯ_ХАОСА rand
+#define СЕМЯ_ХАОСА srand
+#define СКРИЖАЛЬ_ИЗ_ПЛОТИ to_string
+#define ШИРЬ_БЕЗУМИЯ setw
+#define ЗАКЛЯТИЕ const
+#define МОЩЬ_ЙОГ_СОТОТА pow
+#define ПРИЗВАТЬ_ДРЕВНЕГО throw
+#define БЕЗУМИЕ_ИЗ_ВНЕШНИХ_СФЕР exception
+#define ЧИТАТЬ_НЕКРОНОМИКОН ifstream
+#define ПИСАТЬ_НЕКРОНОМИКОН ofstream
+#define ГРИМУАР fstream
+#define СЛУЖИТЕЛЬ_КУЛЬТА friend
+#define ПРЫЖОК_МЕЖДУ_ИЗМЕРЕНИЯМИ goto
+#define ФОРМУЛА_ЗАКЛЯТИЯ template
+#define ИМЯ_ДРЕВНЕГО typename
+#define ЗАПРЕТНОЕ_ЗНАНИЕ private
+#define ЗНАНИЕ_ДЛЯ_ПОСВЯЩЕННЫХ public
+#define ТАЙНОЕ_ЗНАНИЕ protected
+#define ВПЛЕТЕННОЕ_В_ПЛОТЬ inline
+#define ВЕЧНЫЙ static
+#define ЭТОТ_КОШМАР this
+#define ПОПЫТКА_ПОСТИЧЬ try
+#define ПОЙМАННОЕ_БЕЗУМИЕ catch
+#define ИЗМЕРЕНИЕ_ХАОСА namespace
+#define ОТКРЫТЬ_ВРАТА open
+#define ЗАКРЫТЬ_ВРАТА close
+#define СУЩНОСТЬ_ИЗ_ИНЫХ_МИРОВ auto
+#define ПРЕОБРАЗОВАНИЕ_МАТЕРИИ static_cast
+#define ВЗГЛЯД_ИЗ_ИНОГО_ИЗМЕРЕНИЯ peek
+#define БЛИЗНЕЦЫ pair
+#define СТАРШИЙ_БЛИЗНЕЦ first
+#define МЛАДШИЙ_БЛИЗНЕЦ second
+#define РИТУАЛ operator
+#define СДВИГ_РЕАЛЬНОСТИ move
 
-#define HORROR exception
-#define ESSENCE_OF_HORROR what
+#define УЖАС exception
+#define СУТЬ_УЖАСА what
 
-#define TIME_OUT_OF_TIME time
+#define ВРЕМЯ_ВНЕ_ВРЕМЕНИ time
 
-#define ABSORB_KNOWLEDGE getline
-#define WORTHY_PRIEST good
-#define DESCENT_INTO_MADNESS fail
-#define END_OF_ALL_THINGS eof
-#define ABYSS_OF_ENDING eof
-#define STREAM_FROM_ABYSS ostream
-#define STREAM_TO_ABYSS istream
-#define ENTITY_EXCHANGE swap
-#define EXTRACT_ENTITY get
+#define ПОГЛОТИТЬ_ЗНАНИЕ getline
+#define ДОСТОЙНЫЙ_ЖРЕЦ good
+#define ПРОВАЛ_В_БЕЗУМИЕ fail
+#define КОНЕЦ_ВСЕХ_ВЕЩЕЙ eof
+#define БЕЗДНА_ЗАВЕРШЕНИЯ eof
+#define ПОТОК_ИЗ_БЕЗДНЫ ostream
+#define ПОТОК_В_БЕЗДНУ istream
+#define ОБМЕН_СУЩНОСТЕЙ swap
+#define ИЗВЛЕЧЬ_СУЩНОСТЬ get
 
-INVOKE flesh = int;
-INVOKE ancient_knowledge = double;
-INVOKE small_fragment_of_knowledge = float;
-INVOKE sigil = char;
-INVOKE necronomicon_text = ABYSS::string;
-INVOKE voidness = void;
-INVOKE lesser_horror = short;
-INVOKE ancient_horror = long;
-INVOKE horror_from_the_depths = long long;
-INVOKE measure_of_madness = size_t;
-INVOKE truth_of_cthulhu = bool;
+ПРИЗВАТЬ ПЛОТЬ = int;
+ПРИЗВАТЬ ЗНАНИЕ_ДРЕВНИХ = double;
+ПРИЗВАТЬ МАЛАЯ_ЧАСТЬ_ЗНАНИЯ = float;
+ПРИЗВАТЬ СИМВОЛ_ЗАКЛЯТИЯ = char;
+ПРИЗВАТЬ ТЕКСТ_НЕКРОНОМИКОНА = БЕЗДНА::string;
+ПРИЗВАТЬ ПУСТОТА = void;
+ПРИЗВАТЬ МАЛЫЙ_УЖАС = short;
+ПРИЗВАТЬ ДРЕВНИЙ_УЖАС = long;
+ПРИЗВАТЬ УЖАС_ИЗ_ГЛУБИН = long long;
+ПРИЗВАТЬ МЕРА_БЕЗУМИЯ = size_t;
+ПРИЗВАТЬ ИСТИНА_КТУЛХУ = bool;
 
-INVOKE unfathomable_flesh = unsigned int;
-INVOKE unfathomable_sigil = unsigned char;
-INVOKE unfathomable_lesser_horror = unsigned short;
-INVOKE unfathomable_ancient_horror = unsigned long;
-INVOKE unfathomable_horror_from_the_depths = unsigned long long;
+ПРИЗВАТЬ НЕПОСТИЖИМАЯ_ПЛОТЬ = unsigned int;
+ПРИЗВАТЬ НЕПОСТИЖИМЫЙ_СИМВОЛ = unsigned char;
+ПРИЗВАТЬ НЕПОСТИЖИМЫЙ_МАЛЫЙ_УЖАС = unsigned short;
+ПРИЗВАТЬ НЕПОСТИЖИМЫЙ_ДРЕВНИЙ_УЖАС = unsigned long;
+ПРИЗВАТЬ НЕПОСТИЖИМЫЙ_УЖАС_ИЗ_ГЛУБИН = unsigned long long;
 
-PROPHECY COUNT_OF_THE_ANCIENTS{
-    BEGINNING = 0,
-    FIRST_SIGN = 1,
-    SECOND_SIGN = 2,
-    THIRD_SIGN = 3,
-    FOURTH_SIGN = 4,
-    FIFTH_SIGN = 5,
-    SIXTH_SIGN = 6,
-    SEVENTH_SIGN = 7,
-    EIGHTH_SIGN = 8,
-    NINTH_SIGN = 9,
-    CYCLE_END = 10
+ПРОРОЧЕСТВО СЧЕТ_ДРЕВНИХ{
+    НАЧАЛО = 0,
+    ПЕРВЫЙ_ЗНАК = 1,
+    ВТОРОЙ_ЗНАК = 2,
+    ТРЕТИЙ_ЗНАК = 3,
+    ЧЕТВЕРТЫЙ_ЗНАК = 4,
+    ПЯТЫЙ_ЗНАК = 5,
+    ШЕСТОЙ_ЗНАК = 6,
+    СЕДЬМОЙ_ЗНАК = 7,
+    ВОСЬМОЙ_ЗНАК = 8,
+    ДЕВЯТЫЙ_ЗНАК = 9,
+    ЗАВЕРШЕНИЕ_ЦИКЛА = 10
 };
 
 #include <queue>
 
-#define PRIEST_QUEUE queue
-#define LAST_IN_QUEUE back
-#define CREATE_PRIEST emplace
-#define QUEUE_IS_EMPTY empty
-#define FIRST_PRIEST front
-#define SACRIFICE_PRIEST pop
-#define ADD_PRIEST push
-#define NUMBER_OF_PRIESTS size
-#define VESSEL_OF_PRIESTS _Get_container
+#define ОЧЕРЕДЬ_ЖРЕЦОВ queue
+#define ПОСЛЕДНИЙ_В_ОЧЕРЕДИ back
+#define СОЗДАТЬ_ЖРЕЦА emplace
+#define ОЧЕРЕДЬ_ПУСТА empty
+#define ПЕРВЫЙ_ЖРЕЦ front
+#define ПРИНЕСТИ_В_ЖЕРТВУ pop
+#define ДОБАВИТЬ_ЖРЕЦА push
+#define ЧИСЛО_ЖРЕЦОВ size
+#define СОСУД_С_ЖРЕЦАМИ _Get_container
